@@ -1,3 +1,5 @@
+![MITRA](https://github.com/user-attachments/assets/5a82aa77-8d06-464b-aabf-828fd08af853)
+
 # MITRA (Mutual Initiatives for Transforming Rural Areas) 🌾📚💡
 
 MITRA is an ongoing Android app project developed to empower rural communities with essential educational, agricultural, and health resources. The app is built using Dart and Flutter, ensuring a modern and user-friendly experience.
