@@ -1,50 +1,178 @@
-# Welcome to your Expo app 👋
+# MITRA - Farmer's Companion 🌱
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A comprehensive, open-source mobile application designed to empower farmers with real-time agricultural information, crop planning, soil analysis, and market price tracking. Built with React Native, Expo, and Firebase, MITRA brings modern technology to the heart of agriculture.
 
-## Get started
+---
 
-1. Install dependencies
+## About the Initiative
 
+**MITRA** stands for **Mutual Initiative for Transforming Rural Areas**. This app is the first in a series of open-source projects under the MITRA initiative, aiming to transform rural life through technology. In the future, expect more apps focused on health, education, and other vital sectors—all open source and community-driven.
+
+---
+
+## Table of Contents
+
+- [Features](#features)
+- [Screenshots](#screenshots)
+- [Tech Stack](#tech-stack)
+- [Project Structure](#project-structure)
+- [Getting Started](#getting-started)
+- [Development](#development)
+- [Contributing](#contributing)
+- [License](#license)
+- [Acknowledgements](#acknowledgements)
+- [Contact](#contact)
+
+---
+
+## Features
+
+- **Multi-language Support**: English, Hindi, and Odia with dynamic switching.
+- **Real-time Weather Updates**: Location-specific weather data, multiple parameters, and offline caching.
+- **Farming Activity Management**: Crop-specific schedules, activity tracking, and reminders.
+- **Rural Services Integration**: Access to government schemes, training programs, farmer groups, and helplines.
+- **User Authentication**: Secure login, profile management, and preference storage.
+- **Offline-first Architecture**: Data caching and offline access for critical features.
+- **Modern UI/UX**: Material Design, accessibility, and responsive layouts.
+
+---
+
+## Screenshots
+
+> _Add screenshots or demo GIFs here to showcase the app UI and features!_
+>
+> Example:
+> ![Home Screen](assets/images/home-screenshot.png)
+> ![Weather Feature](assets/images/weather-screenshot.png)
+
+---
+
+## Tech Stack
+
+- **Frontend**: React Native, Expo, React Navigation
+- **Backend/Cloud**: Firebase (Authentication, Realtime Database)
+- **APIs**: OpenWeatherMap, weatherapi.com
+- **State Management**: React Context API
+- **Localization**: i18next, react-i18next
+- **Data Storage**: expo-sqlite, AsyncStorage
+- **UI Libraries**: @expo/vector-icons, react-native-calendars, react-native-linear-gradient
+
+---
+
+## Project Structure
+
+```
+MITRA/
+├── app/                    # Main app configuration and navigation
+├── assets/                 # Static assets (images, fonts, etc.)
+├── components/             # Reusable UI components
+├── constants/              # App-wide constants and configurations
+├── docs/                   # Documentation files
+├── hooks/                  # Custom React hooks
+├── screens/                # Main screen components
+├── scripts/                # Build and utility scripts
+├── .expo/                  # Expo configuration
+├── node_modules/           # Dependencies
+├── app.json                # Expo app configuration
+├── package.json            # Project dependencies and scripts
+├── README.md               # Project documentation
+└── tsconfig.json           # TypeScript configuration
+```
+
+See [`docs/directory-structure.md`](docs/directory-structure.md) for more details.
+
+---
+
+## Getting Started
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) (v16+ recommended)
+- [Expo CLI](https://docs.expo.dev/get-started/installation/)
+- [Git](https://git-scm.com/)
+
+### Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/your-username/mitra.git
+   cd mitra
+   ```
+
+2. **Install dependencies:**
    ```bash
    npm install
    ```
 
-2. Start the app
-
+3. **Start the app:**
    ```bash
-    npx expo start
+   npx expo start
    ```
+   - Use the QR code to open in Expo Go, or run on an emulator/simulator.
 
-In the output, you'll find options to open the app in a
+---
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## Development
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+- **Android:** `npm run android`
+- **iOS:** `npm run ios`
+- **Web:** `npm run web`
+- **Reset Project:** `npm run reset-project`
 
-## Get a fresh project
+### File-based Routing
 
-When you're ready, run:
+MITRA uses Expo Router for file-based navigation. Edit or add screens in the `app/` directory.
 
-```bash
-npm run reset-project
-```
+### Environment Variables
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+- Set up your API keys (e.g., for weather APIs) in a `.env` file or directly in the config files as needed.
 
-## Learn more
+### Testing
 
-To learn more about developing your project with Expo, look at the following resources:
+- Run tests with:
+  ```bash
+  npm test
+  ```
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+---
 
-## Join the community
+## Contributing
 
-Join our community of developers creating universal apps.
+MITRA welcomes contributions from the community!
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+1. Fork the repository
+2. Create a new branch (`git checkout -b feature/your-feature`)
+3. Commit your changes (`git commit -m 'feat: Add new feature'`)
+4. Push to your branch (`git push origin feature/your-feature`)
+5. Open a Pull Request
+
+Please follow the code style and commit message conventions. See the [Project Report](ProjectReport.md) for architecture and design details.
+
+---
+
+## License
+
+> _Specify your license here (e.g., MIT, Apache 2.0, GPL, etc.)_
+
+---
+
+## Acknowledgements
+
+- [React Native](https://reactnative.dev/)
+- [Expo](https://expo.dev/)
+- [Firebase](https://firebase.google.com/)
+- [OpenWeatherMap](https://openweathermap.org/)
+- [i18next](https://www.i18next.com/)
+- All contributors and the open-source community
+
+---
+
+## Contact
+
+For questions, suggestions, or support, open an issue or contact the maintainers at **tech9ic@gmail.com**.
+
+---
+
+> _MITRA: Empowering Farmers, Enabling Growth._
+
+---
