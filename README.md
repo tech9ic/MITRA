@@ -152,7 +152,7 @@ Please follow the code style and commit message conventions. See the [Project Re
 
 ## License
 
-> _MIT Licence _
+> _MIT Licence_
 
 ---
 
