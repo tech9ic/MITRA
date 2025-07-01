@@ -152,7 +152,7 @@ Please follow the code style and commit message conventions. See the [Project Re
 
 ## License
 
-> _Specify your license here (e.g., MIT, Apache 2.0, GPL, etc.)_
+> _MIT Licence _
 
 ---
 
