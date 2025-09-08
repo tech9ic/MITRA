@@ -1,4 +1,56 @@
-# MITRA - Farmer's Companion 🌱
+#
+
+<div align="center">
+   <p>
+      <img src="https://img.shields.io/badge/React_Native-Expo-blueviolet.svg?logo=react" alt="React Native">
+      <img src="https://img.shields.io/badge/TypeScript-4+-3178C6.svg?logo=typescript&logoColor=white" alt="TypeScript">
+      <img src="https://img.shields.io/badge/Firebase-Cloud-yellow.svg?logo=firebase" alt="Firebase">
+      <img src="https://img.shields.io/badge/OpenWeatherMap-API-orange.svg?logo=OpenWeatherMap&logoColor=white" alt="OpenWeatherMap">
+      <img src="https://img.shields.io/badge/i18next-Localization-blue.svg?logo=i18next&logoColor=white" alt="i18next">
+      <img src="https://img.shields.io/badge/Android-OS-3DDC84.svg?logo=android&logoColor=white" alt="Android">
+      <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License">
+   </p>
+   <h1 style="margin-bottom:0.2em; font-size:2.5em;">MITRA - Farmer's Companion 🌱</h1>
+   <em>Empowering farmers with real-time agricultural information, crop planning, and market insights.</em>
+</div>
+
+---
+
+<div align="center">
+
+<table>
+   <tr>
+      <th>🌟 Key Feature</th>
+      <th>✨ Details</th>
+   </tr>
+   <tr>
+      <td>🌐 Multi-language Support</td>
+      <td>English, Hindi, Odia</td>
+   </tr>
+   <tr>
+      <td>⛅ Weather Updates</td>
+      <td>Real-time, location-based, offline caching</td>
+   </tr>
+   <tr>
+      <td>🌾 Crop & Activity Management</td>
+      <td>Schedules, reminders, tracking</td>
+   </tr>
+   <tr>
+      <td>🏢 Rural Services</td>
+      <td>Govt. schemes, helplines, groups</td>
+   </tr>
+   <tr>
+      <td>📴 Offline-first</td>
+      <td>Critical data always available</td>
+   </tr>
+   <tr>
+      <td>🎨 Modern UI/UX</td>
+      <td>Material Design, accessibility</td>
+   </tr>
+</table>
+
+</div>
+
 
 A comprehensive, open-source mobile application designed to empower farmers with real-time agricultural information, crop planning, soil analysis, and market price tracking. Built with React Native, Expo, and Firebase, MITRA brings modern technology to the heart of agriculture.
 
@@ -42,8 +94,7 @@ A comprehensive, open-source mobile application designed to empower farmers with
 > _Add screenshots or demo GIFs here to showcase the app UI and features!_
 >
 > Example:
-> ![Home Screen](assets/images/home-screenshot.png)
-> ![Weather Feature](assets/images/weather-screenshot.png)
+> ![Home Screen](assets/images/home-screenshot.png) > ![Weather Feature](assets/images/weather-screenshot.png)
 
 ---
 
@@ -94,12 +145,14 @@ See [`docs/directory-structure.md`](docs/directory-structure.md) for more detail
 ### Installation
 
 1. **Clone the repository:**
+
    ```bash
    git clone https://github.com/your-username/mitra.git
    cd mitra
    ```
 
 2. **Install dependencies:**
+
    ```bash
    npm install
    ```
